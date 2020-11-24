@@ -204,7 +204,7 @@ load_rules() {
 	for rule in $rulelist
 	do
 		case "$rule" in
-				koolproxy.txt)
+			koolproxy.txt)
 				sed -i '1s/0/1/g' $KP_DIR/data/source.list
 			;;
 			daily.txt)
@@ -235,7 +235,7 @@ load_rules() {
 			antiad.txt)
 				sed -i '8s/0/1/g' $KP_DIR/data/source.list
 			;;
-		  mv.txt)
+		        mv.txt)
 				sed -i '9s/0/1/g' $KP_DIR/data/source.list
 			;;
 		esac
