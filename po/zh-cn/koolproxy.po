@@ -1,5 +1,5 @@
 msgid "A powerful advertisement blocker. "
-msgstr "KoolProxyR plus+是能识别adblock规则的免费开源软件,追求体验更快、更清洁的网络，屏蔽烦人的广告！"
+msgstr "LedeProxy是基于KoolProxy整理而来，是能识别adblock规则的免费开源软件,追求体验更快、更清洁的网络，屏蔽烦人的广告！"
 
 msgid "Startup Delay"
 msgstr "启动延迟"
