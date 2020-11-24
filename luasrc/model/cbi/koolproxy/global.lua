@@ -34,7 +34,6 @@ end
 
 
 o = Map("koolproxy", translate("LedeProxy"), translate("LedeProxy是基于KoolProxy整理而来，是能识别adblock规则的免费开源软件,追求体验更快、更清洁的网络，屏蔽烦人的广告！"))
-
 t = o:section(TypedSection, "global")
 t.anonymous = true
 t.description = translate(string.format("%s<br /><br />", status))
