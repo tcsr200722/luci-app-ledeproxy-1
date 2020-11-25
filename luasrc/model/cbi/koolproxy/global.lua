@@ -32,8 +32,7 @@ else
 	status = translate("<strong><font color=\"red\">LedeProxy is Not Running</font></strong>")
 end
 
-
-o = Map("koolproxy", translate("LedeProxy"), translate("LedeProxy是基于KoolProxy整理而来，是能识别adblock规则的免费开源软件,追求体验更快、更清洁的网络，屏蔽烦人的广告！"))
+o = Map("koolproxy", translate("LedeProxy "), translate("LedeProxy是基于KoolProxy重新整理而来的能识别adblock规则的免费开源软件,追求体验更快、更清洁的网络，屏蔽烦人的广告！"))
 t = o:section(TypedSection, "global")
 t.anonymous = true
 t.description = translate(string.format("%s<br /><br />", status))
@@ -47,7 +46,7 @@ e.rmempty = false
 e = t:taboption("base", DummyValue, "koolproxy_status", translate("程序版本"))
 e.value = string.format("[ %s ]", v)
 
-e = t:taboption("base", Value, "startup_delay", translate("Startup Delay"))
+e = t:taboption("base", Value, "startup_delay", translate("启动延迟"))
 e:value(0, translate("Not enabled"))
 for _, v in ipairs({5, 10, 15, 25, 40}) do
 	e:value(v, translate("%u seconds") %{v})
